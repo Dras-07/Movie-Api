@@ -7,15 +7,15 @@ body, h1, h2, p, ul, li, form {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f7f7f7;
-  color: #333;
+  background-color:  #110920;
+  color:#fff;
 }
 
 h1 {
   text-align: center;
   padding: 20px 0;
-  background-color: #3366cc;
-  color: #fff;
+  background-color:  #110920;
+  color: #1e73be;
 }
 
 form {
@@ -60,9 +60,10 @@ button:hover {
   width: 250px;
   margin: 10px;
   padding: 10px;
-  background-color: #fff;
+  background-color: #110920;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  border: 2px solid #1a4188;
 }
 
 .movie-title {
@@ -145,16 +146,22 @@ button:hover {
   margin-top: 5px;
 }
 
- #pagination {
-  display: inline-block;
-  justify-content: center;
-  margin: 20px 0;
-  font-size: 20px;
+#pagination{
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top:40px;
 }
 
 #pagination button {
-  margin-left: 2px;
+  margin-left: 9px;
  font-size: 16px;
- padding:2px;
+ padding-bottom:1px;
+ padding-top: 1px;
+ padding-left: 3px;
+ padding-right: 3px;
 }
 
+.movie-search-label{
+  font-size:25px;
+  font-weight: bold;
+}
