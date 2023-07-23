@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Search</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <h1>Movie Search</h1>
+  <form onsubmit="searchMovies(event)">
+    <label for="movieSearchInput">Enter movie title:</label>
+    <input type="text" id="movieSearchInput" name="movie" placeholder="Movie title...">
+    <button type="submit">Search</button>
+  </form>
+  <div id="searchResults"></div>
+  <div id="pagination"></div>
+  <div id="movieDetails"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
