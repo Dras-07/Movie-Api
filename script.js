@@ -131,6 +131,7 @@ function renderMovieDetails(movie, movieDetailsDiv, imdbID) {
     <p>Director: ${movie.Director}</p>
     <p>Actors: ${movie.Actors}</p>
     <p>Plot: ${movie.Plot}</p>
+    <p>IMDB: ${movie.imdbRating}</p>
     <div class="comment-section">
       <label for="comment-${imdbID}">Comment:</label>
       <input type="text" id="comment-${imdbID}" placeholder="Enter your comment...">
@@ -147,7 +148,7 @@ function renderMovieDetails(movie, movieDetailsDiv, imdbID) {
         <option value="5">⭐⭐⭐⭐</option>
         <option value="6">⭐⭐⭐⭐⭐</option>
       </select>
-      <button class="update-rating-button">Add/Update Rating</button>
+      <button class="update-rating-button">Give Rating</button>
       <p class="user-rating"></p>
     </div>
   `;
